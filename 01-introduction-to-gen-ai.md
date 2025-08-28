@@ -40,8 +40,8 @@ Most of the recent generative AI models – also known as Large Language Models 
 
 - **Tokenizer, text to numbers**: Large Language Models receive a text as input and generate a text as output. However, being statistical models, they work much better with numbers than text sequences. That’s why every input to the model is processed by a tokenizer, before being used by the core model. A token is a chunk of text – consisting of a variable number of characters, so the tokenizer's main task is splitting the input into an array of tokens. Then, each token is mapped with a token index, which is the integer encoding of the original text chunk.
 
-![Example of tokenization](<img width="854" height="280" alt="image" src="https://github.com/user-attachments/assets/43099d91-df6f-4960-a33c-68c9b340ad46" />
-)
+<img width="961" height="277" alt="image" src="https://github.com/user-attachments/assets/5c0961e6-de7a-4340-813a-f913d07bdd3e" />
+
 
 - **Predicting output tokens**: Given n tokens as input (with max n varying from one model to another), the model is able to predict one token as output. This token is then incorporated into the input of the next iteration, in an expanding window pattern, enabling a better user experience of getting one (or multiple) sentence as an answer. This explains why, if you ever played with ChatGPT, you might have noticed that sometimes it looks like it stops in the middle of a sentence.
 
