@@ -28,8 +28,8 @@ This is the technology that powered the virtual assistants born in the first dec
 
 So that’s how we came to Generative AI today, which can be seen as a subset of deep learning.
 
-![AI, ML, DL and Generative AI](<img width="975" height="499" alt="image" src="https://github.com/user-attachments/assets/7ef1b767-6506-4864-a92c-1bf282d2090e" />
-)
+<img width="971" height="520" alt="image" src="https://github.com/user-attachments/assets/52b9d74c-d065-4305-a6e7-e4bb193c78e8" />
+
 
 After decades of research in the AI field, a new model architecture – called _Transformer_ – overcame the limits of RNNs, being able to get much longer sequences of text as input. Transformers are based on the attention mechanism, enabling the model to give different weights to the inputs it receives, ‘paying more attention’ where the most relevant information is concentrated, regardless of their order in the text sequence.
 
